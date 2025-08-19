@@ -13,4 +13,5 @@ const UserSchema = new mongoose.Schema({
   badges: [String],
 });
 
+
 export default mongoose.models.User || mongoose.model('User', UserSchema);
