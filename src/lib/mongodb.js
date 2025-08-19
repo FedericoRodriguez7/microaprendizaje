@@ -7,4 +7,5 @@ const connectDB = async () => {
     useUnifiedTopology: true,
   });
 };
+
 export default connectDB;
