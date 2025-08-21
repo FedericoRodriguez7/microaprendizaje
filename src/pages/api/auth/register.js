@@ -24,5 +24,4 @@ export default async function handler(req, res) {
   } catch (error) {
     return res.status(500).json({ msg: "Error en el servidor" });
   }
-  
 }
